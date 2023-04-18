@@ -14,7 +14,7 @@ app.get("/", function(request, response){
 // начинаем прослушивать подключения на 3000 порту
 app.listen(3000);
 
-
+////d;lskgsd;lk
 
 app.get("/about", function(request, response){
     response.sendFile(path.join(__dirname, '/public', 'admin.html'));
